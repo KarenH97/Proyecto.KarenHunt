@@ -3,24 +3,129 @@
 <head>
     <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<link rel="stylesheet" type="text/css" href="css/estilo.css">
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<meta name="viewport" content="widt=device-width, initial-scale=1.0">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
 	rel="stylesheet" 
 	integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
 	crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">
 	<link rel="shortcut icon"href="favicon.ico" type="image/x-icon">
 	<title>Vintage Hunters</title>
 
 </head>
 <body>
 	<header>
-	<h1>Vintage Hunters </h1>
+		<nav class="navbar navbar-expand-lg bg-$color-primary">
+			<div class="container-fluid">
+			    <a class="navbar-brand" href="#">
+				  <img src="../assets/home/logo.png" alt="logo" width="50" height="40">
+				  </a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				  <li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="../pages/contacto.html">Contacto</a>
+				  </li>
+				  <li class="nav-item dropdown" data-bs-theme="dark">
+					<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					  Productos
+					</a>
+					<ul class="dropdown-menu">
+					  <li><a class="dropdown-item" href="../pages/joyas.html">Joyas</a></li>
+					  <li><hr class="dropdown-divider"></li>
+					  <li><a class="dropdown-item" href="../pages/coleccionables.html">Coleccionables</a></li>
+					  <li><hr class="dropdown-divider"></li>
+					  <li><a class="dropdown-item" href="../pages/galponvintage.html">Galpon Vintage</a></li>
+					</ul>
+				  </li>
+				</ul>
+			  </div>
+			</div>
+		  </nav>
 	</header>
 
-	<main></main>
-	<footer></footer>
-    
+	<main>
+			
+	    <h1>Joyas Antiguas </h1>
+	
+			<section id="productos">
+
+				<div>
+					<img src="../assets/joyas/joya1.jpg" alt="imagen de joyas">
+					<h3>Prendedor de plata Colibrí</h3>
+					<h3>$1000</h3>
+					<button><a href="#">Comprar</a></button>
+				</div>
+
+				<div>
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0ba-XhXUw7oD4jl5NzwBPzwz2h0ClTCZj-g&usqp=CAU">```
+					<h3>Gargantilla Antiga</h3>
+					<h3>$1500</h3>
+					<button><a href="#">Comprar</a></button>
+				</div>
+				
+				<!-- <table>
+					<tr>
+						<td><img src="../assets/joyas/joya1.jpg" alt="imagen de joyas"></td>
+						<td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0ba-XhXUw7oD4jl5NzwBPzwz2h0ClTCZj-g&usqp=CAU"></td>
+					</tr>
+	
+					<tr>
+						<td>Prendedor de plata Colibrí</td>
+						<td>Gargantilla Antiga</td>
+					</tr>
+					<tr>
+						<td>$1000</td>
+						<td>$1500</td>
+					</tr>
+					<tr>
+						<td><button><a href="#">Comprar</a></button></td>
+						<td><button><a href="#">Comprar</a></button></td>
+					</tr>
+				</table> -->
+	
+			</section>
+	
+				
+			<section id="video_consejos">
+				
+				<div>
+					<h4>Dejamos un video de consejos sobre cómo limpiar nuestras joyas de plata y mantenerlas en perfecto estado</h4>
+				</div>
+	
+				<div>
+					<iframe 
+					width="100%"
+					height="100%" 
+					src="https://www.youtube.com/embed/C4NMce9zXjs" 
+					title="YouTube video player" 
+					frameborder="0" 
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen>
+					</iframe>
+					
+				</div>
+				
+			</section>
+	</main>
+	<footer>
+			<div class="redes-sociales">
+				<a href="#"><img src="../assets/instagram-icon.png" alt="instagram"></a>
+				<a href="#"><img src="../assets/whatsapp-con.png" alt="whatsapp"></i></a>
+				<a href="#"><img src="../assets/gmail-con.png" alt="gmail"></i></a>
+			</div>
+			<div class="copywriting">
+				&copy; 2023 Tienda Vintage Hunters, todos los derechos reservados.
+			</div>
+        
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
 </body>
 </html>

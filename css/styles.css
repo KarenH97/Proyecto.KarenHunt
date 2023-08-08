@@ -1,0 +1,160 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+header {
+  background-color: rgba(188, 129, 100, 0.942); }
+
+.main-inicio {
+  display: grid;
+  grid-template-rows: o 0.6fr, 1fr;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  background-image: url(../assets/home/fondo4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .main-inicio .sintesis-inicio {
+    font-size: xx-large;
+    padding: 80px;
+    margin: 30px; }
+    .main-inicio .sintesis-inicio small {
+      font-size: x-large; }
+  .main-inicio .rutas-productos {
+    padding-bottom: 100px;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    margin-bottom: 100px; }
+    .main-inicio .rutas-productos img {
+      width: 80%;
+      height: 50%;
+      margin: 20px;
+      border: 2px solid black;
+      box-shadow: 5px 5px 10px black;
+      border-radius: 5%; }
+
+button {
+  background-color: #6e3212;
+  border: 3px;
+  border-radius: 5%; }
+  button a {
+    text-decoration: none;
+    color: beige;
+    padding: 5px; }
+
+h1 {
+  text-align: center;
+  padding: 50px; }
+
+h2 {
+  text-align: left;
+  margin: 40px; }
+
+h3 {
+  text-align: center;
+  margin: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large; }
+
+h4 {
+  text-align: left;
+  margin: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; }
+
+main {
+  background-image: url(../assets/home/fondo3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  main #productos {
+    padding: 80px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row; }
+    main #productos img {
+      margin: 15px;
+      border: 2px solid black;
+      border-radius: 10%;
+      width: 17.5rem;
+      height: 17rem; }
+  main #video_consejos {
+    padding: 40px;
+    width: 800px;
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(2.1fr); }
+  main #form {
+    height: 70%;
+    padding: 40px;
+    margin-top: 50px; }
+
+footer {
+  background-color: #6e3212;
+  padding: 20px;
+  text-align: center; }
+
+.redes-sociales {
+  margin-top: 10px; }
+  .redes-sociales a {
+    margin-right: 40px; }
+    .redes-sociales a img {
+      width: 30px;
+      height: 30px; }
+
+.copywriting {
+  margin-top: 10px;
+  color: #888; }
+
+/* Desktop First*/
+@media (max-width: 992px) {
+  .main-inicio {
+    font-size: xx-large; }
+    .main-inicio .rutas-productos {
+      padding-bottom: 100px;
+      font-size: large;
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      margin: 40px; }
+      .main-inicio .rutas-productos img {
+        width: 60%;
+        height: 60%;
+        margin: 30px;
+        border: 2px solid black;
+        box-shadow: 5px 5px 10px black;
+        border-radius: 5%; }
+    .main-inicio button {
+      margin: 30px;
+      background-color: rgba(188, 129, 100, 0.942);
+      border: 3px;
+      border-radius: 5%; }
+      .main-inicio button a {
+        text-decoration: none;
+        color: beige;
+        padding: 5px; } }
+
+@media (max-width: 768px) {
+  main {
+    background-image: url(../assets/home/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; }
+    main #productos {
+      padding: 80px;
+      justify-content: center;
+      text-align: center;
+      display: flex;
+      flex-direction: column; }
+      main #productos img {
+        margin: 15px;
+        border: 2px solid black;
+        border-radius: 10%;
+        width: 17.5rem;
+        height: 17rem; }
+    main #video_consejos {
+      padding: 20px;
+      width: 400px;
+      height: 400px;
+      display: grid;
+      grid-template-rows: repeat(2.1fr); } }
