@@ -186,8 +186,8 @@ footer{
             font-size: large;
              display: flex;
              flex-direction: column;
-             padding: 20px;
-             margin: 40px;
+             padding: 40px;
+             margin-top: 50px;
              img {
              width: 60%;
              height: 60%;
@@ -198,7 +198,7 @@ footer{
               }
               
              button{
-                margin: 30px;
+                 margin: 30px;
                  background-color: $color-primary;
                  border: 3px;
                  border-radius: 5%;
@@ -214,7 +214,39 @@ footer{
 
 // Medium devices (tablets, 768px and up)
 @media (max-width: 768px) { 
-    main{
+
+    .main-inicio{
+        font-size: large;
+        .rutas-productos{
+            padding-bottom: 100px;
+            font-size: medium;
+             display: flex;
+             flex-direction: column;
+             padding: 40px;
+             margin-top: 70px;
+             img {
+             width: 60%;
+             height: 50%;
+             margin: 30px;
+             border: 2px solid black;
+             box-shadow: 5px 5px 10px black;
+             border-radius: 5%;}
+              }
+              
+             button{
+                 margin: 30px;
+                 background-color: $color-primary;
+                 border: 3px;
+                 border-radius: 5%;
+                 a{
+                     text-decoration: none;
+                     color: beige;
+                     padding: 5px;
+                
+                 } } }
+    
+     
+ main{
         background-image: url(../assets/home/fondo3.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -243,10 +275,117 @@ footer{
 }
 
 // Small devices (landscape phones, 576px and up)
-@media (max-width: 576px) { }
+@media (max-width: 576px) { 
+    .main-inicio{
+
+        .sintesis-inicio{
+            font-size: x-large;
+            small{
+                font-size: large;
+            }
+        }
+        .rutas-productos{
+            font-size: 20px;
+             display: flex;
+             flex-direction: column;
+             padding: 20px;
+             margin-top: 90px;
+             img {
+             width: 70%;
+             height: 50%;
+             margin: 30px;
+             border: 2px solid black;
+             box-shadow: 5px 5px 10px black;
+             border-radius: 5%;}
+              }
+              
+             button{
+                 margin: 30px;
+                 background-color: $color-primary;
+                 border: 3px;
+                 border-radius: 5%;
+                 a{
+                     text-decoration: none;
+                     color: beige;
+                     padding: 5px;
+                
+                 } } }
+}
 
 // Small devices (landscape phones, 320px and up)
-@media (max-width: 320px) { }
+@media (max-width: 320px) {
+    body{
+        padding: 5px;
+        margin: 0;
+        width: 100%;
+    }
+    
+    .main-inicio{
+        padding: 10px;
+        margin: 0%;
+        width: 100%;
+
+        .sintesis-inicio{
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            font-size: large;
+            p{
+                display: none;
+            }
+           
+        }
+        .rutas-productos{
+            width: 100%;
+            padding-bottom: 10px;
+            font-size: 25px;
+            margin-top: 60px;
+             img {
+             width: 80%;
+             height: 30%;
+             border: 2px solid black;
+             box-shadow: 5px 5px 10px black;
+             border-radius: 5%;}
+              }
+              
+             button{
+                 margin: 30px;
+                 background-color: $color-primary;
+                 border: 3px;
+                 border-radius: 5%;
+                 a{
+                     text-decoration: none;
+                     color: beige;
+                     padding: 5px;
+                
+                 } } }
+        h3{
+            font-size: 20px;
+        }
+
+
+        main{
+            padding: 0;
+            margin: 0;
+            width: 100%;
+        
+            #productos{
+                padding: 40px;
+                margin: 0;
+                justify-content: center;
+                text-align: center;
+                    img{
+                        border:2px solid black;
+                        border-radius: 10%;
+                        width:80%;
+                        height:50%;}}
+        
+                        #video_consejos{
+                            display: none;
+                        }
+        } 
+}
+
 
 
 
